@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <base href="/">
+    <title>Angular 2 QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="js/lib/es6-shim.min.js"></script>
+    <script src="js/lib/zone.min.js"></script>
+    <script src="js/lib/Reflect.js"></script>
+    <script src="js/lib/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+
+  </head>
+
+  <body class="container">
+    <my-app>Loading...</my-app>
+  </body>
+</html>
